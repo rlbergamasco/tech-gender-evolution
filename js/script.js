@@ -117,6 +117,12 @@ imgt4.onclick = function() {
     modalt4.style.display = "block";
 }
 
+var modalSources = document.getElementById("modal-sources");
+var sourcesButton = document.getElementById("source-button");
+sourcesButton.onclick = function() {
+    modalSources.style.display = "block";
+}
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -158,5 +164,7 @@ window.onclick = function(event) {
       modalt3.style.display = "none";
     } else if (event.target == modalt4) {
       modalt4.style.display = "none";
-    }
+    } else if (event.target == modalSources) {
+        modalSources.style.display = "none";
+      }
   }
