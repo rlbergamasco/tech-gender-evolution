@@ -48,6 +48,10 @@ article {
   margin: 20px;
 }
 
+p {
+  text-align: center;
+}
+
 button {
   display: flex;
   justify-content: center;
